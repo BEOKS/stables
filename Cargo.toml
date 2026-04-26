@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "stables/core",
+    "stables/control",
+    "stables/agent",
+    "stables/cli",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/leejs/stables"
+rust-version = "1.93"
+
+[workspace.dependencies]
+stables-core = { path = "stables/core" }
+stables-control = { path = "stables/control" }
+stables-agent = { path = "stables/agent" }
