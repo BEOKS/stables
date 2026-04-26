@@ -2,7 +2,6 @@
 members = [
     "stables/core",
     "stables/control",
-    "stables/agent",
     "stables/cli",
 ]
 resolver = "2"
@@ -16,4 +15,3 @@ rust-version = "1.93"
 [workspace.dependencies]
 stables-core = { path = "stables/core" }
 stables-control = { path = "stables/control" }
-stables-agent = { path = "stables/agent" }

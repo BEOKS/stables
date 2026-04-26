@@ -11,6 +11,5 @@ name = "stables"
 path = "src/main.rs"
 
 [dependencies]
-stables-agent.workspace = true
 stables-control.workspace = true
 stables-core.workspace = true
